@@ -11,10 +11,10 @@ It works because: the where clause evaluates to TRUE regardless of category, sin
 
 ## Lab 2  - SQLi vulnerability allowing login bypass  
 Link: https://portswigger.net/web-security/sql-injection/lab-login-bypass  
-Payload: **administrator'--**
+Payload: **administrator'--**  
 Assumption(s):  
-- username = administrator
-Query produced: SELECT * from users WHERE username = 'administrator'
+- username = administrator  
+Query produced: SELECT * from users WHERE username = 'administrator'  
 It works because: this hack efficiently removed the need of a correct password (bypassing it completely)
 
 ## Lab 3 - SQLi UNION attack, retrieving data from other tables
