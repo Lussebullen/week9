@@ -10,3 +10,4 @@ Otherwise you will start getting type-error messages as soon as you rename the f
 ![Task-2](/images/get-items-test.png)  
 
 ## Task 2 - Assignments
+1-3 done, but so much work to understand how this non-sql database model works. And so much hussle with copy/paste the long id:s for the different "tables". I'm sorry but I stick to my SQL (for better or worse).  
